@@ -1,0 +1,23 @@
+body{
+     font-family: Arial, sans-serif;
+}
+.container{
+    display:grid;
+    gap:10px;
+    margin-bottom: 30px;
+}
+
+.fixed-width{
+    grid-template-columns: 200px 200px 200px;
+}
+    
+.flexible{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+    .box {
+    border: 1px solid rgb(78, 190, 225);
+    padding: 20px;
+    margin: 5px;
+    background-color: lightblue;
+}

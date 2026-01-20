@@ -1,0 +1,14 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 10px;
+}
+
+.box {
+    background-color: rgb(27, 153, 199);
+    color: rgb(19, 4, 12);
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}

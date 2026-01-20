@@ -1,0 +1,15 @@
+body{
+ font-family: Arial, sans-serif;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 10px;
+}
+
+.box {
+    background-color: lightcoral;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}

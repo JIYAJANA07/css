@@ -1,0 +1,11 @@
+.container.auto {
+    display: grid;
+    grid-template-rows: 100px auto;
+    gap: 10px;
+}
+
+.box {
+    background-color: rgb(182, 139, 184);
+    padding: 15px;
+    border: 1px solid black;
+}
